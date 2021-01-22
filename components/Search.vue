@@ -3,7 +3,7 @@
     <!--大湾区入口-->
     <div class="dw_inlet">
       <router-link to="http://hk.centanet.com/greater-bay-area/?lang=zh"
-        ><img src="http://10.68.2.9/testmacau/images/dw_inlet.png"
+        ><img src="~/assets/dw_inlet.png"
       /></router-link>
     </div>
     <!--搜索-->
@@ -31,21 +31,21 @@
             <input type="hidden" id="hl_areas" name="areas" />
             <input type="hidden" id="hl_pItemType" name="pItemType" value="" />
             <span id="searchSubmit" class="i-newsearch-button">
-              <img src="http://10.68.2.9/testmacau/images/New/c-search3.jpg" />
+              <img src="~/assets/c-search3.jpg" />
             </span>
           </form>
-        </div>
+        </div> 
       </div>
       <!-- 轮播 -->
       <div class="lun_bo">
-          <!-- <el-carousel indicator-position="outside">
+        <el-carousel indicator-position="outside">
           <el-carousel-item v-for="item in 4" :key="item">
             <h3>{{ item }}</h3>
           </el-carousel-item>
-        </el-carousel> -->
+        </el-carousel>
       </div>
       <!-- 大图标导航 -->
-      <!-- <div class=""></div> -->
+      <div class=""></div>
     </div>
   </div>
 </template>
@@ -64,15 +64,14 @@ export default {};
     z-index: 999;
   }
   .b_box {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 464px;
     background: url("http://img11.soufunimg.com/news/2018_12/03/M18/10/EE/ChCE4VwEmMuITe-mAAEGds6jfpcABH_7wDOHMAAAQaO939.jpg");
-    // border: 1px solid red;
-    // box-sizing: 100% 100%;
+    box-sizing: 100% 100%;
+    // border: 1px solid pink;
     .i-newsearch {
       background: rgba(0, 0, 0, 0.3);
       border-radius: 5px;
@@ -165,27 +164,34 @@ export default {};
       position: relative;
       z-index: 11;
     }
-    .lun_bo{
+    .lun_bo {
+      // HQZY-HQHMA-202012-0009
       position: absolute;
-      top:151px;
+      top: auto;
       width: 100%;
-      height: 464px;
-      background: green;
-      //  /deep/ .el-carousel__container {
-      //   position: relative;
-      //   display: flex;
-      // justify-content: center;
-      // align-items: center;
-      //   width: 100%;
-      //   height: 477px;
-      // }
-     
+      height: 477px;
+     /deep/ .el-carousel__container {
+        position: relative;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+        width: 100%;
+        height: 477px;
+      }
+      // height: ;
+      // border:1px solid blue;
+      .el-carousel__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .el-carousel__item h3 {
         color: #475669;
         font-size: 18px;
         opacity: 0.75;
         line-height: 300px;
         margin: 0;
+        // border: 1px solid pink;
       }
 
       .el-carousel__item:nth-child(2n) {

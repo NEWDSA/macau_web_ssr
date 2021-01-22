@@ -8,11 +8,11 @@
       <router-link to="/OnlineSale" class="menu_item"
         ><span>網上放盤</span
         ><img
-          src="http://10.68.2.9/testmacau/images/OnlineSale/web_label_base_pic.png"
+          src="~/assets/web_label_base_pic.png"
         />
         <img
           class="hot_new"
-          src="http://10.68.2.9/testmacau/images/OnlineSale/web_label_base_title.png"
+          src="~/assets/web_label_base_title.png"
         />
       </router-link>
       <router-link to="/Situation" class="menu_item">市场成交</router-link>

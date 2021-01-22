@@ -3,7 +3,7 @@
     <div class="l_container">
       <div class="l_left">
         <router-link class="link1" to="mo.centanet.com/"
-          ><img src="http://10.68.2.9/testmacau/images/New/c-loaction.jpg" />
+          ><img src="~/assets/c-loaction.jpg" />
           <span>澳門</span></router-link
         >
         <div class="topbar_line"></div>

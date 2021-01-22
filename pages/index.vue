@@ -10,11 +10,11 @@
     <div class="brand">
       <div class="bl_content">
         <router-link to="/goother" class="m_logo"
-          ><img src="http://10.68.2.9/testmacau/images/New/c-logo.jpg"
+          ><img src="~/assets/c-logo.jpg"
         /></router-link>
         <router-link to="/goother" class="m_company"
           ><img
-            src="http://10.68.2.9/testmacau/images/New/c-loaction.jpg"
+            src="~/assets/c-loaction.jpg"
           /><span>分行网络</span></router-link
         >
       </div>
