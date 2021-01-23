@@ -22,6 +22,7 @@
     <!-- 引入菜單 -->
     <Menus />
     <Search/>
+    
   </div>
 </template>
 
@@ -77,6 +78,7 @@ export default {
     background-color: white;
     border-radius: 8px;
     font-size: 22px;
+    z-index: 111;
   }
   .l_qr {
     position: absolute;
